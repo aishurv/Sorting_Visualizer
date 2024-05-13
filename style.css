@@ -31,16 +31,16 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    line-height: 70px;
+    line-height: 100px;
     font-size: 16px;
     padding: 8px 15px;
     text-align: center;
 }
 
-/* nav ul li a:hover {
+nav ul li a:hover {
     border-radius: 5px;
     border-bottom: 1px solid #33ffff;
-} */
+}
 .clickable:hover {
     border-radius: 5px;
     border-bottom: 1px solid #33ffff;
@@ -67,13 +67,13 @@ nav ul ul li {
     border-bottom: 1px solid;
 }
 
-.range-input {
+/* .range-input {
     background: teal;
     -webkit-appearance: none;
     height: 2px;
     outline: none;
     border-radius: 2px;
-}
+} */
 
 .range-input::-webkit-slider-thumb {
     -webkit-appearance: none;
@@ -83,11 +83,11 @@ nav ul ul li {
     background: #33ffff;
     cursor: pointer;
 }
-.range-input::-moz-range-thumb {
+/* .range-input::-moz-range-thumb {
     -webkit-appearance: none;
     width: 15px;
     height: 15px;
     border-radius: 50%;
     background: #33ffff;
     cursor: pointer;
-}
+} */

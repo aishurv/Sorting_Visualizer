@@ -1,12 +1,12 @@
 //constants/globals
 var arr = Array(0);
 const width = window.innerWidth;
-const height = window.innerHeight - 200;
-var thick = 20;
+const height = window.innerHeight - 120;
+var thick = 80;
 var len_arr = Math.floor(width / thick);
 var sorted_arr = Array(0);
 var start_sorting = false;
-var frame_rate_val = 40;
+var frame_rate_val = 80;
 var timer_arr = [];
 var time_taken = 0;
 var pause = false;
@@ -32,7 +32,7 @@ class Element {
         this.compare = false; //reset the vals as i only want one time display
         this.pivot = false; //waste delete it later(arr.pivot prop)
         rect(i * thick, height - this.val + 1, thick, this.val);
-        if (thick > 5) {
+        if (thick > 30) {
             noStroke(); //mix with rect
             ellipse(
                 i * thick + thick / 2 + 0.5,
@@ -133,7 +133,7 @@ function time_this_algo(algo) {
 function slider_control() {
     var size_slider = document.getElementById("data_size");
     size_slider.oninput = function () {
-        thick = 62 - size_slider.value;
+        thick = 150 - size_slider.value;
         //higher the slider more the bars
         len_arr = Math.floor(width / thick);
         //reset everything

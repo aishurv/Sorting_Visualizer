@@ -1,7 +1,6 @@
 # Sorting Visualizer
 
 ![Project Image](https://github.com/aishurv/sorting-visualizer/blob/master/image/gif.gif)
-> [Live demo](https://aishurv.github.io/sorting-visualizer/)
 
 ---
 
